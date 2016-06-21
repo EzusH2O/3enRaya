@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MazahuaGame</title>
+
+	<link rel="stylesheet"  href="css/normalize.css">
+	<link rel="shortcut icon" href="cross.png">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
+	<script src="js/modernizr.js"></script>
+
+
+</head>
+<body>
+	<div id="content">
+		<div id="game">
+			<div id="title">
+				<h1>Juego 3 en Raya</h1>
+			</div>
+			<div id="content_board">
+				<div id="board">
+
+				 <!-- Esto es la seccion de filas para el tablero -->
+				 <div id="rows">
+						<div class="row">
+							<div id="c02" class="cell" onClick="CheckCell(0,2)"></div>
+							
+							<div id="c12" class="cell" onClick="CheckCell(1,2)"></div>
+							
+							<div id="c22" class="cell" onClick="CheckCell(2,2)"></div>
+						
+						</div>	
+
+						<div class="row">
+							<div id="c01" class="cell" onClick="CheckCell(0,1)"></div>
+							
+							<div id="c11" class="cell" onClick="CheckCell(1,1)"></div>
+							
+							<div id="c21" class="cell" onClick="CheckCell(2,1)"></div>
+						</div>
+
+						<div class="row">
+							<div id="c00" class="cell" onClick="CheckCell(0,0)"></div>
+							
+							<div id="c10" class="cell" onClick="CheckCell(1,0)"></div>
+							
+							<div id="c20" class="cell" onClick="CheckCell(2,0)"></div>
+						</div>	
+				</div>
+
+
+				</div>
+					
+			</div>
+			
+		</div>
+	</div>
+	<script src="js/chekmanager.js"></script>
+	<script src="js/smart.js"></script>
+	<script src="js/autoplay.js"></script>
+</body>
+
+	
+
+</html>
